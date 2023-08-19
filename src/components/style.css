@@ -1,0 +1,65 @@
+.Stack::-webkit-scrollbar {
+  display: none;
+}
+.Stack{
+  width: 11rem;
+
+}
+
+.Stack button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  margin: 5px 0;
+  width: 100%;
+  gap: 10px;
+
+
+}
+
+.Stack button:hover {
+  background-color: red;
+}
+button .first {
+  color: red;
+}
+
+.Stack button:hover .first {
+  color: white;
+}
+
+button .first:hover {
+  color: white;
+}
+
+.input {
+  width: 15rem;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .input {
+    width: 7rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Stack button{
+    padding: 3px 10px;
+    gap: 5px;
+
+  }
+
+  .Stack{
+    width: 100%;
+  
+  }
+}
